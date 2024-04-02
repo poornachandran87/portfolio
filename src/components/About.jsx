@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section id='about' className='flex flex-col md:flex-row bg-secondary px-5'>
         <div className='md:w-1/2 py-10'>
-            <img src={AboutImg} />
+            <img src={AboutImg} alt='about'/>
         </div>
         <div className='md:w-1/2 flex justify-center'>
             <div className='flex flex-col justify-center text-white'>
