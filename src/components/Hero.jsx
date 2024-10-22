@@ -7,7 +7,7 @@ const Hero = () => {
         social: {
             
             github: 'https://github.com/poornachandran87?tab=repositories',
-            linkedin: 'https://www.linkedin.com/feed/?trk=nav_back_to_linkedin'
+            linkedin: 'www.linkedin.com/in/poornachandran-s-685280226'
         }
     }
   return (
