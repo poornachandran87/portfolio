@@ -4,7 +4,7 @@ import { Bars3Icon } from '@heroicons/react/24/solid'
 const Header = () => {
   const [toggleMenu,setToggleMenu] = useState(false)
   return (
-    <header className='flex justify-between px-2 py-2 bg-primary'>
+    <header className='flex justify-between px-2 py-2 bg-secondary'>
       <a href='#/' className='font-bold text-black'>Poornachandran S</a>
       <nav className='hidden md:block'>
 

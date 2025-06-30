@@ -3,9 +3,12 @@ import AboutImg from '../assets/about.png'
 
 const About = () => {
   const config  = {
-    line1: 'Hi, My name is Poornachandran. I am a Full stack web developer. I built beautiful Websites with React.js , Tailwind CSS',
-    line2: 'I am proficient in Frontend skills like React.js, Redux, Redux Tool Kit, Axios, Tailwind CSS, SaSS, Css3 and many more.',
-    line3: 'In backend I know Node.js, Express.js, MongoDB, and Mongoose'
+    line1: "Hi, I’m Poornachandran, a passionate Full Stack Developer with a strong foundation in Python and JavaScript.",
+  line2: "I specialize in building scalable, responsive web applications using the MERN stack.",
+  line3: "I hold a B.Sc. in Physics and have completed a Full Stack Product Engineering course from SOAL.",
+  line4: "My projects reflect real-world functionality—from real-time chat apps to predictive web applications—showcasing both frontend finesse and backend logic.",
+  line5: "I enjoy learning new technologies, solving complex problems, and deploying applications that make an impact."
+
 }
   return (
     <section id='about' className='flex flex-col md:flex-row bg-secondary px-5'>
@@ -19,6 +22,8 @@ const About = () => {
             <p className='pb-5'>{config.line1} </p>
             <p className='pb-5'>{config.line2}</p>
             <p className='pb-5'>{config.line3}</p>
+            <p className='pb-5'>{config.line4}</p>
+            <p className='pb-5'>{config.line5}</p>
             </div>
         </div>
       
