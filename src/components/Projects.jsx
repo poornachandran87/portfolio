@@ -10,7 +10,7 @@ export default function Projects() {
             {
                 image: websiteImg1,
                 description: 'A Ecommerce Website. Built with MERN Stack.',
-                link: ' http://52.193.203.240/',
+                link: 'https://upwan.greennaturopathy.com/',
                 code:' https://github.com/poornachandran87/upwan.git'
             },
             {
